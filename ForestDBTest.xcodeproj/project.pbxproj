@@ -13,6 +13,14 @@
 		A160324C1DB12C51005EDAF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A160324B1DB12C51005EDAF7 /* Assets.xcassets */; };
 		A160324F1DB12C51005EDAF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A160324D1DB12C51005EDAF7 /* LaunchScreen.storyboard */; };
 		A160325A1DB12C51005EDAF7 /* ForestDBTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16032591DB12C51005EDAF7 /* ForestDBTestTests.swift */; };
+		A16032651DB12CD3005EDAF7 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A16032641DB12CD3005EDAF7 /* CouchbaseLite.framework */; };
+		A160326E1DB12EAD005EDAF7 /* libCBLForestDBStorage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A160326D1DB12EAD005EDAF7 /* libCBLForestDBStorage.a */; };
+		A16032711DB1313A005EDAF7 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A16032701DB1313A005EDAF7 /* libc++.tbd */; };
+		A16032731DB13141005EDAF7 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A16032721DB13141005EDAF7 /* libz.tbd */; };
+		A16032751DB131DD005EDAF7 /* InitialData.json in Resources */ = {isa = PBXBuildFile; fileRef = A16032741DB131DD005EDAF7 /* InitialData.json */; };
+		A16032821DB14270005EDAF7 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A16032811DB14270005EDAF7 /* libsqlite3.tbd */; };
+		A16032841DB14284005EDAF7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A16032831DB14284005EDAF7 /* CFNetwork.framework */; };
+		A16032861DB142A4005EDAF7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A16032851DB142A4005EDAF7 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,15 @@
 		A16032551DB12C51005EDAF7 /* ForestDBTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForestDBTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16032591DB12C51005EDAF7 /* ForestDBTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestDBTestTests.swift; sourceTree = "<group>"; };
 		A160325B1DB12C51005EDAF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A16032641DB12CD3005EDAF7 /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLite.framework; sourceTree = "<group>"; };
+		A16032691DB12D6E005EDAF7 /* ForestDBTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ForestDBTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		A160326D1DB12EAD005EDAF7 /* libCBLForestDBStorage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCBLForestDBStorage.a; sourceTree = "<group>"; };
+		A16032701DB1313A005EDAF7 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		A16032721DB13141005EDAF7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A16032741DB131DD005EDAF7 /* InitialData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = InitialData.json; sourceTree = "<group>"; };
+		A16032811DB14270005EDAF7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A16032831DB14284005EDAF7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A16032851DB142A4005EDAF7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +60,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A16032861DB142A4005EDAF7 /* SystemConfiguration.framework in Frameworks */,
+				A16032841DB14284005EDAF7 /* CFNetwork.framework in Frameworks */,
+				A16032821DB14270005EDAF7 /* libsqlite3.tbd in Frameworks */,
+				A16032731DB13141005EDAF7 /* libz.tbd in Frameworks */,
+				A16032711DB1313A005EDAF7 /* libc++.tbd in Frameworks */,
+				A160326E1DB12EAD005EDAF7 /* libCBLForestDBStorage.a in Frameworks */,
+				A16032651DB12CD3005EDAF7 /* CouchbaseLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +83,12 @@
 		A16032381DB12C51005EDAF7 = {
 			isa = PBXGroup;
 			children = (
+				A160326D1DB12EAD005EDAF7 /* libCBLForestDBStorage.a */,
+				A16032641DB12CD3005EDAF7 /* CouchbaseLite.framework */,
 				A16032431DB12C51005EDAF7 /* ForestDBTest */,
 				A16032581DB12C51005EDAF7 /* ForestDBTestTests */,
 				A16032421DB12C51005EDAF7 /* Products */,
+				A160326F1DB1313A005EDAF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +110,8 @@
 				A160324B1DB12C51005EDAF7 /* Assets.xcassets */,
 				A160324D1DB12C51005EDAF7 /* LaunchScreen.storyboard */,
 				A16032501DB12C51005EDAF7 /* Info.plist */,
+				A16032691DB12D6E005EDAF7 /* ForestDBTest-Bridging-Header.h */,
+				A16032741DB131DD005EDAF7 /* InitialData.json */,
 			);
 			path = ForestDBTest;
 			sourceTree = "<group>";
@@ -94,6 +123,18 @@
 				A160325B1DB12C51005EDAF7 /* Info.plist */,
 			);
 			path = ForestDBTestTests;
+			sourceTree = "<group>";
+		};
+		A160326F1DB1313A005EDAF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A16032851DB142A4005EDAF7 /* SystemConfiguration.framework */,
+				A16032831DB14284005EDAF7 /* CFNetwork.framework */,
+				A16032811DB14270005EDAF7 /* libsqlite3.tbd */,
+				A16032721DB13141005EDAF7 /* libz.tbd */,
+				A16032701DB1313A005EDAF7 /* libc++.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +187,8 @@
 				TargetAttributes = {
 					A16032401DB12C51005EDAF7 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZBDQM5KN5Q;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					A16032541DB12C51005EDAF7 = {
@@ -179,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A16032751DB131DD005EDAF7 /* InitialData.json in Resources */,
 				A160324F1DB12C51005EDAF7 /* LaunchScreen.storyboard in Resources */,
 				A160324C1DB12C51005EDAF7 /* Assets.xcassets in Resources */,
 				A160324A1DB12C51005EDAF7 /* Main.storyboard in Resources */,
@@ -339,10 +383,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = ZBDQM5KN5Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ForestDBTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Mckesson.ForestDBTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ForestDBTest/ForestDBTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -351,10 +408,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = ZBDQM5KN5Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ForestDBTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Mckesson.ForestDBTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ForestDBTest/ForestDBTest-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
