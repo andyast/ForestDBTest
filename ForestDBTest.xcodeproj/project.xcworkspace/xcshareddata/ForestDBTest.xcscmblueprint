@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6409FA8238D8755716F42215428230D4E9197D8F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6409FA8238D8755716F42215428230D4E9197D8F" : 9223372036854775807,
+    "A285BCEC7D6D8A0B6D4A852E70EFCD820E12B9FD" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B5F05676-A749-44A8-B46D-E17A68A4198E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6409FA8238D8755716F42215428230D4E9197D8F" : "ForestDBTest\/",
+    "A285BCEC7D6D8A0B6D4A852E70EFCD820E12B9FD" : "..\/GitHub\/couchbase-lite-ios"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ForestDBTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ForestDBTest.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/andyast\/ForestDBTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6409FA8238D8755716F42215428230D4E9197D8F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/couchbase\/couchbase-lite-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A285BCEC7D6D8A0B6D4A852E70EFCD820E12B9FD"
+    }
+  ]
+}

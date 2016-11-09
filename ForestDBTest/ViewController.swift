@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         openDatabase()
         
         
-        for batch in 0...75 {
+        for batch in 0...1000 {
             print("Start Batch: \(batch)")
             self.loadInitialData(batch: batch)
             print("Done Batch: \(batch)")
